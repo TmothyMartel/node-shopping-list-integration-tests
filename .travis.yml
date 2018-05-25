@@ -1,2 +1,10 @@
 language: node_js
 node_js: node
+deploy: warm-crag-40280
+  provider: heroku
+  api_key:
+    secure: OaA6vZnpjz1skAGfgcBYjbTZ8nUK8rDIyohMCFE9tp9n1qTvfszOI85xKwaBcKIVbxY0PYVpEz8YKW+nhWMsraZgSPOlBwdSJQPneV5zDw9a3atbxIQXQPPGpNZqKZYNgFlKrtEgNkai/XbdD2uSTAbNKDZqbSMNTym+BL/2clL0wmXQQJBXVy+iU3PqKbUx+2M6w6z8loUn+vsKM7ZwHO87RuCL9QbR9WvbUJYolUCBU2u0GgBof6i0TQvMHeZlYhRfOoihjvrVxMQwUbYP1S7qpZ2U8UG9fNIWur2fMOsp3Z5hVwJO0FQPuk1BjrqcQmEsmO9MYY+P5cgJT8tw6VVqHOd/HascTS06DJlyyThFLBoBwqjahNHT4GNSU6A3xChQAqapeTT/rtXDcrJOjruvQ93NGHDVuAF3RqOmXbnxEm728/+j5P28hmu2ulYNsJv9tnin5dNNidaOIOT260friNfnnWupUoYP+KSQr9CdBJNRS+dSzNnox5L3HJ2FKu0fJ9Oz4bVrl0uyEZHmHyYaMYPRMTyqEtCQeCLmAM8tjvVFv0+A0OufQfEH8e91Ig4F2vv6808AChSxEAfZ4MSdjQ4HTenuocWG3VjmIAIGqYoQ4WWvxylydeNQw2nDfMbWjWFzkIn4SSjrwpdGmerYw1FBB4Wwb8tWB+44s/A=
+  app: node-shopping-list-integration-tests
+  on:
+    repo: TmothyMartel/node-shopping-list-integration-tests
+    branch: tests-for-recipes
